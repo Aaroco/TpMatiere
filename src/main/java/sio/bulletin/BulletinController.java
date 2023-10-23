@@ -123,12 +123,10 @@ public class BulletinController implements Initializable {
     }
 
     @FXML
-    public void lvMatieresMoyenneClicked(Event event)
-    {
+    public void lvMatieresMoyenneClicked(Event event) {
         String matSelec = lvMatieresMoyenne.getSelectionModel().getSelectedItem().toString();
-        for (Etudiant etudiant : lesBulletins.get(matSelec).get(tvMoyennesParDevoirs.getSelectionModel().getSelectedItem().toString()))
-        {
-            if ()
+        for (Etudiant etudiant : lesBulletins.get(matSelec).get(tvMoyennesParDevoirs.getSelectionModel().getSelectedItem().toString())) {
+          /*  if ()
             {
                 ArrayList<Etudiant> letudiant = new ArrayList<>();
                 letudiant.add(etudiant);
@@ -139,15 +137,16 @@ public class BulletinController implements Initializable {
 
             }
 
+        } */
+
+            // RemplirTreeView();
+
         }
-
-        RemplirTreeView();
-
-    }
         // A vous de jouer
 
 
     }
 }
+
 
 
