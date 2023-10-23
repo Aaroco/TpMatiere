@@ -118,6 +118,8 @@ public class BulletinController implements Initializable {
 
 
         }
+        // RemplirTreeView();
+
         // A vous de jouer
 
     }
@@ -139,10 +141,11 @@ public class BulletinController implements Initializable {
 
         } */
 
-            // RemplirTreeView();
 
         }
         // A vous de jouer
+        // RemplirTreeViewDevoir();
+
 
 
     }
